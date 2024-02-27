@@ -1,0 +1,85 @@
+
+// @font-face {
+//   font-family: 'Tahoma';
+//   src: url('../../../../assets/fonts/tahoma/tahomaTahoma-Bold.eot');
+//   src: local('Tahoma Bold'), local('Tahoma-Bold'),
+//       url('../../../../assets/fonts/Tahoma-Bold.eot?#iefix') format('embedded-opentype'),
+//       url('../../../../assets/fonts/Tahoma-Bold.woff2') format('woff2'),
+//       url('../../../../assets/fonts/Tahoma-Bold.woff') format('woff'),
+//       url('../../../../assets/fonts/Tahoma-Bold.ttf') format('truetype');
+//   font-weight: bold;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: 'Tahoma';
+//   src: url('../../../../assets/fonts/Tahoma.eot');
+//   src: local('Tahoma'),
+//       url('../../../../assets/fonts/Tahoma.eot?#iefix') format('embedded-opentype'),
+//       url('../../../../assets/fonts/Tahoma.woff2') format('woff2'),
+//       url('../../../../assets/fonts/Tahoma.woff') format('woff'),
+//       url('../../../../assets/fonts/Tahoma.ttf') format('truetype');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+body{
+  font-family: Tahoma;
+}
+
+.main-home__page {
+  background: url('../../../../assets/img/slide3.jpg') no-repeat;
+  background-size: cover;
+}
+
+.main-home__wrapper {
+  max-height: calc(100vh - 90px);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  overflow: hidden;
+
+}
+.couriers-orders-wrapper{
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 20px 32px;
+  gap: 20px;
+}
+
+.main__text-wishes {
+  color: $accent;
+  margin-bottom: 20px;
+  max-width: 300px;
+  text-align: right;
+  align-self: flex-end;
+}
+
+body{
+  background-color: #1D1D1D;
+  color: #fff;
+}
+
+.ymaps-2-1-79-image{
+  border: 2px solid black;
+  border-radius: 24px;
+}
+
+.orders-contener{
+  margin: 8px 0;
+}
+
+.more-btn-contener{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 8px;
+}
+
+.logs{
+  white-space: pre-wrap;
+  font-size: 14px;
+  color: beige;
+}

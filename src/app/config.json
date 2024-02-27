@@ -1,0 +1,14 @@
+{
+  "isFireBase": false,
+  "firebase_key" : "BAZgozXQSXtM1tERjdgOCcZGCXcF5rvjeubtM8c18JOiRqdverSFbZECvET1iGRFRnUfeY98xZBXTzpi873K0rk",
+  "orders_perpage" : 15,
+  "version" : "0.0.7",
+  "firebaseConfig" : {
+      "apiKey": "AIzaSyByROuVNw_rWn1yp3LSKrNwX67Wjdj4Qao",
+      "authDomain": "wc-orders-manager.firebaseapp.com",
+      "projectId": "wc-orders-manager",
+      "storageBucket": "wc-orders-manager.appspot.com",
+      "messagingSenderId": "1021092625448",
+      "appId": "1:1021092625448:web:39ffe899d479b64650091d"
+  }
+}
